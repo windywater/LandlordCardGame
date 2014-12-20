@@ -1,0 +1,21 @@
+* {
+    font-family: Microsoft Yahei;
+}
+
+#info {
+	color: rgb(225, 30, 10);
+	font-size: 30px;
+}
+
+#button {
+	color: white;
+	border-image: url(:/res/button.png) 0 267 0 0;
+}
+
+#button:hover {
+	border-image: url(:/res/button.png) 0 178 0 89;
+}
+
+#button:pressed {
+	border-image: url(:/res/button.png) 0 89 0 178;
+}
